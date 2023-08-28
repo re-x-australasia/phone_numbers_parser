@@ -1331,7 +1331,7 @@ const metadataPatternsByIsoCode = {
     nationalPrefixTransformRule: null,
     general:
         r"[29]\d{7,9}|50\d{5}(?:\d{2,3})?|6[0-35-9]\d{6}|7\d{7,8}|8\d{4,9}|(?:11\d|[34])\d{7}",
-    mobile: r"2[0-27-9]\d{7,8}|2(?:1\d|75)\d{5}",
+    mobile: r"2(?:[0-27-9]|66)\d{7,8}|2(?:1\d|75)\d{5}",
     fixedLine: r"24099\d{3}|(?:3[2-79]|[49][2-9]|6[235-9]|7[2-57-9])\d{6}",
   ),
   IsoCode.OM: PhoneMetadataPatterns(
